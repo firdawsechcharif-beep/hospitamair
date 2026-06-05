@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitamaire - Centre Hospitalier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Hospitamaire</div>
+        <>
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Nos Services</a>
+            <a href="#contact">Prendre Rendez-vous</a>
+            <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Nos Services</a>
+            <a href="#contact">Prendre Rendez-vous</a>
+          <!-- Nouveau lien vers la page de gestion des rendez-vous -->
+           <a href="admin.html" style="background-color: #28a745; padding: 5px 10px; border-radius: 4px;">Espace Admin</a>
+    </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <h1>Votre santé, notre priorité absolue</h1>
+        <p>Bienvenue au centre hospitalier Hospitamaire. Des soins de qualité accessibles à tous.</p>
+        <a href="#contact" class="btn">Prendre RDV en ligne</a>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services Médicaux</h2>
+        <div class="services-container">
+            <div class="card">
+                <h3>Urgences 24/7</h3>
+                <p>Une équipe médicale réactive prête à intervenir à tout moment.</p>
+            </div>
+            <div class="card">
+                <h3>Cardiologie</h3>
+                <p>Des spécialistes et des équipements de pointe pour votre cœur.</p>
+            </div>
+            <div class="card">
+                <h3>Pédiatrie</h3>
+                <p>Des soins attentionnés et adaptés pour la santé de vos enfants.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Prendre un Rendez-vous</h2>
+        <form id="appointment-form">
+            <label for="name">Nom complet :</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Adresse Email :</label>
+            <input type="email" id="email" required>
+
+            <label for="date">Date souhaitée :</label>
+            <input type="date" id="date" required>
+
+            <button type="submit">Confirmer la demande</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Hospitamaire. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <div id="site-content" style="display: none;">
+
+        <header>...</header>
+        <section id="accueil">...</section>
+        <section id="services">...</section>
+        <section id="contact">...</section>
+        <footer>...</footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
